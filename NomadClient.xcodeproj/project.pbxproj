@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1B1C391509977300EE7492 /* Mainstoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1B1C381509977300EE7492 /* Mainstoryboard.storyboard */; };
+		CE3C99F9154FA3DA00614B26 /* titlelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3C99F8154FA3DA00614B26 /* titlelogo.png */; };
+		CE9AD00314FEC967009F4C69 /* TruckPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD00214FEC967009F4C69 /* TruckPageViewController.m */; };
+		CE9AD00614FEE32E009F4C69 /* ThinUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD00514FEE32E009F4C69 /* ThinUITableViewCell.m */; };
+		CE9AD00E14FEE5FD009F4C69 /* backgroundtile.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD00814FEE5FD009F4C69 /* backgroundtile.png */; };
+		CE9AD00F14FEE5FD009F4C69 /* ducknroll.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD00914FEE5FD009F4C69 /* ducknroll.png */; };
+		CE9AD01014FEE5FD009F4C69 /* empanadapic.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD00A14FEE5FD009F4C69 /* empanadapic.png */; };
+		CE9AD01214FEE5FD009F4C69 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD00C14FEE5FD009F4C69 /* splash.png */; };
+		CE9AD01314FEE5FD009F4C69 /* truckpin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD00D14FEE5FD009F4C69 /* truckpin.png */; };
+		CE9AD01614FF36A8009F4C69 /* TruckMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD01514FF36A8009F4C69 /* TruckMapViewController.m */; };
+		CE9AD0191500264B009F4C69 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD0181500264B009F4C69 /* MenuViewController.m */; };
+		CE9AD01C15002659009F4C69 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD01B15002659009F4C69 /* ScheduleViewController.m */; };
+		CE9AD01F15002668009F4C69 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD01E15002668009F4C69 /* MessagesViewController.m */; };
+		CE9AD0211500332F009F4C69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD0201500332F009F4C69 /* MapKit.framework */; };
+		CE9AD0261502E51E009F4C69 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD0251502E51E009F4C69 /* Parse.framework */; };
+		CE9AD0281502E55A009F4C69 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD0271502E55A009F4C69 /* AudioToolbox.framework */; };
+		CE9AD02A1502E561009F4C69 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD0291502E561009F4C69 /* CFNetwork.framework */; };
+		CE9AD02C1502E568009F4C69 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD02B1502E568009F4C69 /* SystemConfiguration.framework */; };
+		CE9AD02E1502E56F009F4C69 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD02D1502E56F009F4C69 /* MobileCoreServices.framework */; };
+		CE9AD0301502E57D009F4C69 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD02F1502E57D009F4C69 /* libz.1.1.3.dylib */; };
+		CE9AD0321502E584009F4C69 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD0311502E584009F4C69 /* Security.framework */; };
+		CE9AD0341502E58A009F4C69 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9AD0331502E58A009F4C69 /* QuartzCore.framework */; };
+		CE9AD03715044D29009F4C69 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD03615044D29009F4C69 /* MBProgressHUD.m */; };
+		CEFBC58D14FC6BA000CC47DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFBC58C14FC6BA000CC47DF /* UIKit.framework */; };
+		CEFBC58F14FC6BA000CC47DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFBC58E14FC6BA000CC47DF /* Foundation.framework */; };
+		CEFBC59114FC6BA000CC47DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFBC59014FC6BA000CC47DF /* CoreGraphics.framework */; };
+		CEFBC59714FC6BA000CC47DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFBC59514FC6BA000CC47DF /* InfoPlist.strings */; };
+		CEFBC59914FC6BA000CC47DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC59814FC6BA000CC47DF /* main.m */; };
+		CEFBC59D14FC6BA000CC47DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC59C14FC6BA000CC47DF /* AppDelegate.m */; };
+		CEFBC5AB14FC6CB000CC47DF /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC5AA14FC6CB000CC47DF /* FoodTruck.m */; };
+		CEFBC5AD14FC6ED000CC47DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFBC5AC14FC6ED000CC47DF /* CoreLocation.framework */; };
+		CEFBC5B014FC734B00CC47DF /* MenuFoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC5AF14FC734B00CC47DF /* MenuFoodItem.m */; };
+		CEFBC5B314FC74ED00CC47DF /* MessageEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC5B214FC74ED00CC47DF /* MessageEntry.m */; };
+		CEFBC5B614FC779C00CC47DF /* ScheduleEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC5B514FC779C00CC47DF /* ScheduleEntry.m */; };
+		CEFBC5BF14FC9ADB00CC47DF /* TruckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC5BE14FC9ADB00CC47DF /* TruckListViewController.m */; };
+		CEFBC5C114FD809C00CC47DF /* Chile.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEFBC5C014FD809C00CC47DF /* Chile.gif */; };
+		CEFBC5C414FD85E300CC47DF /* TruckSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC5C314FD85E300CC47DF /* TruckSingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE1B1C381509977300EE7492 /* Mainstoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mainstoryboard.storyboard; sourceTree = "<group>"; };
+		CE3C99F8154FA3DA00614B26 /* titlelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlelogo.png; sourceTree = "<group>"; };
+		CE9AD00114FEC967009F4C69 /* TruckPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TruckPageViewController.h; sourceTree = "<group>"; };
+		CE9AD00214FEC967009F4C69 /* TruckPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TruckPageViewController.m; sourceTree = "<group>"; };
+		CE9AD00414FEE32E009F4C69 /* ThinUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinUITableViewCell.h; sourceTree = "<group>"; };
+		CE9AD00514FEE32E009F4C69 /* ThinUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinUITableViewCell.m; sourceTree = "<group>"; };
+		CE9AD00814FEE5FD009F4C69 /* backgroundtile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundtile.png; sourceTree = "<group>"; };
+		CE9AD00914FEE5FD009F4C69 /* ducknroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ducknroll.png; sourceTree = "<group>"; };
+		CE9AD00A14FEE5FD009F4C69 /* empanadapic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empanadapic.png; sourceTree = "<group>"; };
+		CE9AD00C14FEE5FD009F4C69 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		CE9AD00D14FEE5FD009F4C69 /* truckpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truckpin.png; sourceTree = "<group>"; };
+		CE9AD01414FF36A8009F4C69 /* TruckMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TruckMapViewController.h; sourceTree = "<group>"; };
+		CE9AD01514FF36A8009F4C69 /* TruckMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TruckMapViewController.m; sourceTree = "<group>"; };
+		CE9AD0171500264B009F4C69 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		CE9AD0181500264B009F4C69 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		CE9AD01A15002659009F4C69 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		CE9AD01B15002659009F4C69 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		CE9AD01D15002668009F4C69 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		CE9AD01E15002668009F4C69 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		CE9AD0201500332F009F4C69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE9AD0251502E51E009F4C69 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CE9AD0271502E55A009F4C69 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE9AD0291502E561009F4C69 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CE9AD02B1502E568009F4C69 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE9AD02D1502E56F009F4C69 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CE9AD02F1502E57D009F4C69 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		CE9AD0311502E584009F4C69 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CE9AD0331502E58A009F4C69 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE9AD03515044D28009F4C69 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CE9AD03615044D29009F4C69 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CEFBC58814FC6BA000CC47DF /* NomadClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NomadClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBC58C14FC6BA000CC47DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEFBC58E14FC6BA000CC47DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFBC59014FC6BA000CC47DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFBC59414FC6BA000CC47DF /* NomadClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NomadClient-Info.plist"; sourceTree = "<group>"; };
+		CEFBC59614FC6BA000CC47DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFBC59814FC6BA000CC47DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFBC59A14FC6BA000CC47DF /* NomadClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NomadClient-Prefix.pch"; sourceTree = "<group>"; };
+		CEFBC59B14FC6BA000CC47DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEFBC59C14FC6BA000CC47DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEFBC5A914FC6CB000CC47DF /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		CEFBC5AA14FC6CB000CC47DF /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		CEFBC5AC14FC6ED000CC47DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEFBC5AE14FC734B00CC47DF /* MenuFoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuFoodItem.h; sourceTree = "<group>"; };
+		CEFBC5AF14FC734B00CC47DF /* MenuFoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuFoodItem.m; sourceTree = "<group>"; };
+		CEFBC5B114FC74ED00CC47DF /* MessageEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageEntry.h; sourceTree = "<group>"; };
+		CEFBC5B214FC74ED00CC47DF /* MessageEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageEntry.m; sourceTree = "<group>"; };
+		CEFBC5B414FC779C00CC47DF /* ScheduleEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleEntry.h; sourceTree = "<group>"; };
+		CEFBC5B514FC779C00CC47DF /* ScheduleEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleEntry.m; sourceTree = "<group>"; };
+		CEFBC5BD14FC9ADB00CC47DF /* TruckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TruckListViewController.h; sourceTree = "<group>"; };
+		CEFBC5BE14FC9ADB00CC47DF /* TruckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TruckListViewController.m; sourceTree = "<group>"; };
+		CEFBC5C014FD809C00CC47DF /* Chile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Chile.gif; path = "/Library/Application Support/Apple/iChat Icons/Flags/Chile.gif"; sourceTree = "<absolute>"; };
+		CEFBC5C214FD85E300CC47DF /* TruckSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TruckSingleton.h; sourceTree = "<group>"; };
+		CEFBC5C314FD85E300CC47DF /* TruckSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TruckSingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFBC58514FC6BA000CC47DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9AD0341502E58A009F4C69 /* QuartzCore.framework in Frameworks */,
+				CE9AD0321502E584009F4C69 /* Security.framework in Frameworks */,
+				CE9AD0301502E57D009F4C69 /* libz.1.1.3.dylib in Frameworks */,
+				CEFBC59114FC6BA000CC47DF /* CoreGraphics.framework in Frameworks */,
+				CE9AD02E1502E56F009F4C69 /* MobileCoreServices.framework in Frameworks */,
+				CE9AD02C1502E568009F4C69 /* SystemConfiguration.framework in Frameworks */,
+				CE9AD02A1502E561009F4C69 /* CFNetwork.framework in Frameworks */,
+				CE9AD0281502E55A009F4C69 /* AudioToolbox.framework in Frameworks */,
+				CE9AD0211500332F009F4C69 /* MapKit.framework in Frameworks */,
+				CEFBC5AD14FC6ED000CC47DF /* CoreLocation.framework in Frameworks */,
+				CEFBC58D14FC6BA000CC47DF /* UIKit.framework in Frameworks */,
+				CEFBC58F14FC6BA000CC47DF /* Foundation.framework in Frameworks */,
+				CE9AD0261502E51E009F4C69 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9AD00714FEE5FD009F4C69 /* NomadClientImages */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C99F8154FA3DA00614B26 /* titlelogo.png */,
+				CE9AD00814FEE5FD009F4C69 /* backgroundtile.png */,
+				CE9AD00914FEE5FD009F4C69 /* ducknroll.png */,
+				CE9AD00A14FEE5FD009F4C69 /* empanadapic.png */,
+				CE9AD00C14FEE5FD009F4C69 /* splash.png */,
+				CE9AD00D14FEE5FD009F4C69 /* truckpin.png */,
+			);
+			path = NomadClientImages;
+			sourceTree = SOURCE_ROOT;
+		};
+		CEFBC57D14FC6BA000CC47DF = {
+			isa = PBXGroup;
+			children = (
+				CEFBC59214FC6BA000CC47DF /* NomadClient */,
+				CEFBC58B14FC6BA000CC47DF /* Frameworks */,
+				CEFBC58914FC6BA000CC47DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFBC58914FC6BA000CC47DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBC58814FC6BA000CC47DF /* NomadClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFBC58B14FC6BA000CC47DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD0331502E58A009F4C69 /* QuartzCore.framework */,
+				CE9AD0311502E584009F4C69 /* Security.framework */,
+				CE9AD02F1502E57D009F4C69 /* libz.1.1.3.dylib */,
+				CE9AD02D1502E56F009F4C69 /* MobileCoreServices.framework */,
+				CE9AD02B1502E568009F4C69 /* SystemConfiguration.framework */,
+				CE9AD0291502E561009F4C69 /* CFNetwork.framework */,
+				CE9AD0271502E55A009F4C69 /* AudioToolbox.framework */,
+				CE9AD0201500332F009F4C69 /* MapKit.framework */,
+				CEFBC5C014FD809C00CC47DF /* Chile.gif */,
+				CEFBC5AC14FC6ED000CC47DF /* CoreLocation.framework */,
+				CE9AD0251502E51E009F4C69 /* Parse.framework */,
+				CEFBC58C14FC6BA000CC47DF /* UIKit.framework */,
+				CEFBC58E14FC6BA000CC47DF /* Foundation.framework */,
+				CEFBC59014FC6BA000CC47DF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFBC59214FC6BA000CC47DF /* NomadClient */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD00714FEE5FD009F4C69 /* NomadClientImages */,
+				CEFBC59314FC6BA000CC47DF /* Supporting Files */,
+				CEFBC59B14FC6BA000CC47DF /* AppDelegate.h */,
+				CEFBC59C14FC6BA000CC47DF /* AppDelegate.m */,
+				CEFBC5A914FC6CB000CC47DF /* FoodTruck.h */,
+				CEFBC5AA14FC6CB000CC47DF /* FoodTruck.m */,
+				CEFBC5AE14FC734B00CC47DF /* MenuFoodItem.h */,
+				CEFBC5AF14FC734B00CC47DF /* MenuFoodItem.m */,
+				CE1B1C381509977300EE7492 /* Mainstoryboard.storyboard */,
+				CEFBC5B114FC74ED00CC47DF /* MessageEntry.h */,
+				CEFBC5B214FC74ED00CC47DF /* MessageEntry.m */,
+				CEFBC5B414FC779C00CC47DF /* ScheduleEntry.h */,
+				CEFBC5B514FC779C00CC47DF /* ScheduleEntry.m */,
+				CEFBC5BD14FC9ADB00CC47DF /* TruckListViewController.h */,
+				CEFBC5BE14FC9ADB00CC47DF /* TruckListViewController.m */,
+				CEFBC5C214FD85E300CC47DF /* TruckSingleton.h */,
+				CEFBC5C314FD85E300CC47DF /* TruckSingleton.m */,
+				CE9AD00114FEC967009F4C69 /* TruckPageViewController.h */,
+				CE9AD00214FEC967009F4C69 /* TruckPageViewController.m */,
+				CE9AD00414FEE32E009F4C69 /* ThinUITableViewCell.h */,
+				CE9AD00514FEE32E009F4C69 /* ThinUITableViewCell.m */,
+				CE9AD01414FF36A8009F4C69 /* TruckMapViewController.h */,
+				CE9AD01514FF36A8009F4C69 /* TruckMapViewController.m */,
+				CE9AD0171500264B009F4C69 /* MenuViewController.h */,
+				CE9AD0181500264B009F4C69 /* MenuViewController.m */,
+				CE9AD01A15002659009F4C69 /* ScheduleViewController.h */,
+				CE9AD01B15002659009F4C69 /* ScheduleViewController.m */,
+				CE9AD01D15002668009F4C69 /* MessagesViewController.h */,
+				CE9AD01E15002668009F4C69 /* MessagesViewController.m */,
+				CE9AD03515044D28009F4C69 /* MBProgressHUD.h */,
+				CE9AD03615044D29009F4C69 /* MBProgressHUD.m */,
+			);
+			path = NomadClient;
+			sourceTree = "<group>";
+		};
+		CEFBC59314FC6BA000CC47DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBC59414FC6BA000CC47DF /* NomadClient-Info.plist */,
+				CEFBC59514FC6BA000CC47DF /* InfoPlist.strings */,
+				CEFBC59814FC6BA000CC47DF /* main.m */,
+				CEFBC59A14FC6BA000CC47DF /* NomadClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFBC58714FC6BA000CC47DF /* NomadClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFBC5A614FC6BA000CC47DF /* Build configuration list for PBXNativeTarget "NomadClient" */;
+			buildPhases = (
+				CEFBC58414FC6BA000CC47DF /* Sources */,
+				CEFBC58514FC6BA000CC47DF /* Frameworks */,
+				CEFBC58614FC6BA000CC47DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NomadClient;
+			productName = NomadClient;
+			productReference = CEFBC58814FC6BA000CC47DF /* NomadClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFBC57F14FC6BA000CC47DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEFBC58214FC6BA000CC47DF /* Build configuration list for PBXProject "NomadClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFBC57D14FC6BA000CC47DF;
+			productRefGroup = CEFBC58914FC6BA000CC47DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFBC58714FC6BA000CC47DF /* NomadClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFBC58614FC6BA000CC47DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBC59714FC6BA000CC47DF /* InfoPlist.strings in Resources */,
+				CEFBC5C114FD809C00CC47DF /* Chile.gif in Resources */,
+				CE9AD00E14FEE5FD009F4C69 /* backgroundtile.png in Resources */,
+				CE9AD00F14FEE5FD009F4C69 /* ducknroll.png in Resources */,
+				CE9AD01014FEE5FD009F4C69 /* empanadapic.png in Resources */,
+				CE9AD01214FEE5FD009F4C69 /* splash.png in Resources */,
+				CE9AD01314FEE5FD009F4C69 /* truckpin.png in Resources */,
+				CE1B1C391509977300EE7492 /* Mainstoryboard.storyboard in Resources */,
+				CE3C99F9154FA3DA00614B26 /* titlelogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFBC58414FC6BA000CC47DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBC59914FC6BA000CC47DF /* main.m in Sources */,
+				CEFBC59D14FC6BA000CC47DF /* AppDelegate.m in Sources */,
+				CEFBC5AB14FC6CB000CC47DF /* FoodTruck.m in Sources */,
+				CEFBC5B014FC734B00CC47DF /* MenuFoodItem.m in Sources */,
+				CEFBC5B314FC74ED00CC47DF /* MessageEntry.m in Sources */,
+				CEFBC5B614FC779C00CC47DF /* ScheduleEntry.m in Sources */,
+				CEFBC5BF14FC9ADB00CC47DF /* TruckListViewController.m in Sources */,
+				CEFBC5C414FD85E300CC47DF /* TruckSingleton.m in Sources */,
+				CE9AD00314FEC967009F4C69 /* TruckPageViewController.m in Sources */,
+				CE9AD00614FEE32E009F4C69 /* ThinUITableViewCell.m in Sources */,
+				CE9AD01614FF36A8009F4C69 /* TruckMapViewController.m in Sources */,
+				CE9AD0191500264B009F4C69 /* MenuViewController.m in Sources */,
+				CE9AD01C15002659009F4C69 /* ScheduleViewController.m in Sources */,
+				CE9AD01F15002668009F4C69 /* MessagesViewController.m in Sources */,
+				CE9AD03715044D29009F4C69 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFBC59514FC6BA000CC47DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFBC59614FC6BA000CC47DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFBC5A414FC6BA000CC47DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEFBC5A514FC6BA000CC47DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFBC5A714FC6BA000CC47DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NomadClient/NomadClient-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NomadClient/NomadClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEFBC5A814FC6BA000CC47DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NomadClient/NomadClient-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NomadClient/NomadClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFBC58214FC6BA000CC47DF /* Build configuration list for PBXProject "NomadClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBC5A414FC6BA000CC47DF /* Debug */,
+				CEFBC5A514FC6BA000CC47DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBC5A614FC6BA000CC47DF /* Build configuration list for PBXNativeTarget "NomadClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBC5A714FC6BA000CC47DF /* Debug */,
+				CEFBC5A814FC6BA000CC47DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFBC57F14FC6BA000CC47DF /* Project object */;
+}
